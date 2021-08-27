@@ -1,7 +1,7 @@
 {
-  "name": "@thetinyspark/espresso",
+  "name": "@thetinyspark/moocaccino-espresso",
   "version": "0.0.1",
-  "description": "An open source library based on @thetinyspark/espresso for making 2d video games",
+  "description": "An open source library based on @thetinyspark/moocaccino-barista for making video games",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/thetinyspark/espresso#readme",
   "dependencies": {
+    "@thetinyspark/moocaccino-barista": "^1.6.2",
     "gl-matrix": "^3.3.0"
   },
   "devDependencies": {
