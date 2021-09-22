@@ -8,7 +8,7 @@
     "/dist"
   ],
   "scripts": {
-    "deploy": "npm login && npm publish --access public",
+    "publish": "npm login && npm publish --access public",
     "start": "concurrently \"npm run watch\" \"live-server ./ --port=3000\"",
     "watch": "nodemon -w lib -x \"npm run build\" -e ts",
     "build": "tsc && npx webpack --config webpack.config.js",
@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/thetinyspark/espresso#readme",
   "dependencies": {
-    "@thetinyspark/moocaccino-barista": "^1.6.2",
+    "@thetinyspark/moocaccino-barista": "^1.6.3",
     "gl-matrix": "^3.3.0"
   },
   "devDependencies": {
