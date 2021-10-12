@@ -1,6 +1,6 @@
 {
   "name": "@thetinyspark/moocaccino-espresso",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An open source library based on @thetinyspark/moocaccino-barista for making video games",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,7 @@
     "/dist"
   ],
   "scripts": {
-    "publish": "npm login && npm publish --access public",
+    "pub": "npm login && npm publish --access public",
     "start": "concurrently \"npm run watch\" \"live-server ./ --port=3000\"",
     "watch": "nodemon -w lib -x \"npm run build\" -e ts",
     "build": "tsc && npx webpack --config webpack.config.js",
